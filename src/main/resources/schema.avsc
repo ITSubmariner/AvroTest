@@ -1,0 +1,39 @@
+{
+  "type": "record",
+  "name": "RegisteredEventAvro",
+  "namespace": "ru.samples.kafkasample.dto.avro",
+  "version": "2.0",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "field000",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "status",
+      "type": {
+        "type": "enum",
+        "name": "Status",
+        "symbols": [
+          "CREATED",
+          "IN_PROCESS",
+          "DONE"
+        ]
+      }
+    },
+    {
+      "name": "field0",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "field1",
+      "type": ["null", "string"],
+      "default": null
+    }
+  ]
+}

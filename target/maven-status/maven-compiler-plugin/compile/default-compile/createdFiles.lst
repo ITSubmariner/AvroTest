@@ -1,0 +1,5 @@
+ru\samples\kafkasample\dto\avro\RegisteredEventAvro.class
+ru\samples\kafkasample\dto\avro\Status.class
+org\pet\avro\AvroApplication.class
+ru\samples\kafkasample\dto\avro\RegisteredEventAvro$Builder.class
+ru\samples\kafkasample\dto\avro\RegisteredEventAvro$1.class
